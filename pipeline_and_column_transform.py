@@ -1,12 +1,11 @@
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 import random
-from sklearn.model_selection import train_test_split , GridSearchCV , cross_val_score
+from sklearn.model_selection import train_test_split 
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from sklearn.metrics import accuracy_score , confusion_matrix
+from sklearn.metrics import  confusion_matrix
 from sklearn.linear_model import LogisticRegression
 
 np.random.seed(42)
